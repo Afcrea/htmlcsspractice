@@ -1,0 +1,24 @@
+main article#newContent {
+    width: auto;
+    height: auto;
+}
+
+img {
+    object-fit: cover;
+}
+
+main > article > ol {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 0.41em;
+}
+
+.old {
+    flex: 4;
+    height: auto;
+    width: auto;
+    max-width: 220px;
+}
